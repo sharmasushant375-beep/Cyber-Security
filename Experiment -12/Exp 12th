@@ -1,0 +1,51 @@
+# Experiment No. 12
+
+### Aim:
+To set up and configure a Next-Generation Firewall using pfSense in VirtualBox and test network traffic using Kali Linux.
+
+### Software Required:
+1. Oracle VirtualBox
+2. pfSense Firewall
+3. Kali Linux
+4. Web Browser
+5. Internet Connection
+
+### Theory:
+A **Next-Generation Firewall (NGFW)** is a network security system that monitors and controls incoming and outgoing network traffic.
+
+**pfSense:** pfSense is an open-source firewall and router software used to protect networks from unauthorized access.
+
+**WAN:** Wide Area Network represents the external network.
+
+**LAN:** Local Area Network represents the internal private network.
+
+### Procedure:
+
+1. Open Oracle VirtualBox.
+2. Create and start a pfSense virtual machine.
+3. Configure two network interfaces for pfSense: WAN and LAN.
+4. Assign the appropriate network adapters to both interfaces.
+5. Start the pfSense firewall and configure its WAN and LAN IP addresses.
+6. Create a separate Kali Linux virtual machine.
+7. Configure Kali Linux to connect to the WAN-side network.
+8. Start Kali Linux and check its network connectivity.
+9. Open the pfSense WebGUI using its LAN IP address from a LAN-connected system.
+10. Log in to the pfSense dashboard.
+11. Open Firewall → Rules and configure firewall rules to allow or block network traffic.
+12. Use Kali Linux to test network connectivity and observe the firewall behaviour.
+
+### Observation:
+1. pfSense successfully started as a firewall.
+2. WAN and LAN interfaces were configured.
+3. Firewall rules controlled network traffic.
+4. Unauthorized traffic was blocked according to the configured rules.
+5. Network connectivity was tested using Kali Linux.
+
+### Result:
+Successfully configured a pfSense firewall in VirtualBox and studied how firewall rules control network traffic between WAN and LAN networks.
+
+### Precautions:
+1. Configure network interfaces carefully.
+2. Use a separate virtual network for testing.
+3. Do not expose the firewall management interface to the public network.
+4. Test firewall rules only in an authorized lab environment.

@@ -1,0 +1,73 @@
+Experiment No. 11
+
+Aim:
+
+To detect and mitigate phishing attacks using GoPhish by setting up a phishing simulation, analysing phishing emails and understanding prevention techniques.
+
+Software Required:
+
+GoPhish
+
+Visual Studio Code (optional)
+
+Web Browser (Google Chrome)
+
+Internet Connection
+
+Theory:
+
+Phishing: Phishing is a cyberattack in which attackers send fake emails or messages to trick users into revealing sensitive information.
+
+GoPhish: GoPhish is an open-source phishing simulation tool used to test security awareness and understand how phishing attacks work.
+
+Phishing Detection: It involves identifying suspicious links, fake email addresses, spelling mistakes and unusual requests.
+
+Procedure:
+
+Download and install GoPhish.
+
+Open the GoPhish application.
+
+Launch the GoPhish dashboard in a web browser.
+
+Log in to the dashboard.
+
+Create a sample phishing email template.
+
+Set up a test campaign using dummy email accounts.
+
+Run the simulation in an authorized environment.
+
+Observe the campaign results.
+
+Analyse the suspicious email characteristics.
+
+Study methods to prevent phishing attacks.
+
+Prevention Techniques:
+
+Avoid clicking suspicious links.
+
+Never share passwords or OTPs through emails.
+
+Verify the sender's email address.
+
+Use antivirus and spam filters.
+
+Enable Two-Factor Authentication (2FA).
+
+Avoid downloading unknown attachments.
+
+Result:
+
+Successfully studied phishing attacks using GoPhish, understood phishing email analysis and learned different techniques to detect and prevent phishing attacks.
+
+Precautions:
+
+Use GoPhish only for authorized testing.
+
+Use dummy email accounts for simulation.
+
+Never target real users without permission.
+
+Do not collect actual passwords or sensitive information.
